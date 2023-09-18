@@ -1,37 +1,24 @@
-import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import Home from './componentes/pages/Home';
-import Contact from './componentes/pages/Contact';
-import Company from './componentes/pages/Company';
-import NewProject from './componentes/pages/NewProject';
+import Home from './Components/pages/Home';
+import Contact from './Components/pages/Contact';
+import Company from './Components/pages/Company';
+import NewProject from './Components/pages/NewProject';
+import Projects from './Components/pages/Projects';
+import Project from './Components/pages/Project';
 
-import NavBar from './componentes/NavBar/NavBar';
+import NavBar from './Components/Layout/NavBar';
+
+import Container from './Components/Layout/Container';
+import Footer from './Components/Layout/Footer';
 
 function App() {
-    return (
-        <Router>
-            <ul>
-            <li>
-                <Link to='/'>Home</Link>
-            </li>
-            <li>
-                <Link to='/contact'>Contato</Link>
-            </li>
-            <li>
-                <Link to='/company'>Sobre</Link>
-            </li>
-            <li>
-                <Link to='/newproject'>Novo Projeto</Link>
-            </li>
-        </ul>
-            
-            <Routes>
-                <Route exact path='/' element={<Home/>}/>
-                <Route  path='/company' element={<Company/>}/>
-                <Route  path='/contact' element={<Contact/>}/>
-                <Route  path='/newproject' element={<NewProject/>}/>
-            </Routes>
-        </Router>
+  return (
+    <div className="App">
+
+      <p>Costs</p>
+
+    </div>
   );
 }
 
