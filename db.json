@@ -1,21 +1,44 @@
 {
-    "projects":[],
-    "categories":[
-        {
-            "id": 1,
-            "name": "Infra"
-        },
-        {
-            "id": 2,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
-        }
-    ]
+  "projects": [
+    {
+      "name": "giovani",
+      "budget": "22",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "post": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Giovani",
+      "budget": "111111",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "post": 0,
+      "services": [],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
 }
