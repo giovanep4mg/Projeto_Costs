@@ -24,10 +24,11 @@ function NewProject(){
         .then((data) => {
             console.log(data)
             // redirect
-            navigate('/projects', {message: "Projeto criado com sucesso! "})
+            navigate('/projects?message=Projeto+criado+com+sucesso!');
         })
         .catch((err) => console.log(err))
     }
+   
 
     return(
         <div className={styles.newproject_container}>
