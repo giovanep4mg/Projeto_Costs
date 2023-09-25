@@ -208,6 +208,17 @@
       "post": 0,
       "services": [],
       "id": 19
+    },
+    {
+      "name": "teste",
+      "budget": "111",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "post": 0,
+      "services": [],
+      "id": 20
     }
   ],
   "categories": [
