@@ -10,6 +10,17 @@
       "post": 0,
       "services": [],
       "id": 20
+    },
+    {
+      "name": "teste",
+      "budget": "1109",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "post": 0,
+      "services": [],
+      "id": 21
     }
   ],
   "categories": [
