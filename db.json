@@ -21,6 +21,17 @@
       "post": 0,
       "services": [],
       "id": 21
+    },
+    {
+      "name": "projeto1",
+      "budget": "109",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "post": 0,
+      "services": [],
+      "id": 22
     }
   ],
   "categories": [
