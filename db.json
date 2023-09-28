@@ -12,19 +12,19 @@
       "id": 20
     },
     {
-      "name": "teste",
-      "budget": "1109",
+      "name": "teste atualizando projeto3",
+      "budget": "1000.00",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "post": 0,
       "services": [],
       "id": 21
     },
     {
-      "name": "projeto1",
-      "budget": "109",
+      "name": "projeto atualizar",
+      "budget": "1070000",
       "category": {
         "id": "4",
         "name": "Planejamento"
