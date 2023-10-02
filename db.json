@@ -8,8 +8,31 @@
         "name": "Design"
       },
       "post": 0,
-      "services": [],
-      "id": 20
+      "services": [
+        {
+          "name": "teste de adicionar servico",
+          "costs": "1800",
+          "description": "asasa",
+          "id": "2ad71959-f5b6-4a77-a38e-9d29e87a7302"
+        },
+        {
+          "name": "adiconar",
+          "costs": "100",
+          "id": "55a0a176-3cb5-4dc1-b8db-48b2e1343cce"
+        },
+        {
+          "name": "adiconar",
+          "costs": "100",
+          "id": "55a0a176-3cb5-4dc1-b8db-48b2e1343cce"
+        },
+        {
+          "name": "adiconar",
+          "costs": "100",
+          "id": "55a0a176-3cb5-4dc1-b8db-48b2e1343cce"
+        }
+      ],
+      "id": 20,
+      "cost": null
     },
     {
       "name": "teste atualizando projeto3",
