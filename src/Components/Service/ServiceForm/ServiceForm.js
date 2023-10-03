@@ -1,7 +1,7 @@
-import styles from '../Project/ProjectForm/ProjectForm.module.css';
+import styles from '../../Project/ProjectForm/ProjectForm.module.css';
 import {useState} from 'react';
-import Input from '../Form/Input/Input';
-import SubmitButton from '../button/SubmitButton/SubmitButton';
+import Input from '../../Form/Input/Input';
+import SubmitButton from '../../button/SubmitButton/SubmitButton';
 
 
 function ServiceForm({handleSubmit, textBtn, projectData}){

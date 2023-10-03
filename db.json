@@ -1,79 +1,30 @@
 {
   "projects": [
     {
-      "name": "teste de atualizar projeto 2",
-      "budget": "1500",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 43,
-      "services": [
-        {
-          "name": "editar teste de adicionar servico",
-          "cost": "15.00",
-          "id": "796d0285-42f0-42e2-9c3b-73c5483f8145"
-        },
-        {
-          "name": "segundo teste de adicionar servico",
-          "cost": "13",
-          "id": "851c117a-0a02-4b40-97fd-17610f43dda0"
-        },
-        {
-          "name": "segundo teste de adicionar servico",
-          "cost": "15.00",
-          "id": "fe0aa82c-1de9-40e7-86c5-6f657e7c35d8",
-          "description": "eeee"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "teste atualizando projeto3",
-      "budget": "1000.00",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 491,
-      "services": [
-        {
-          "name": "teste de adicionar servico",
-          "cost": "10.000",
-          "id": "fab69fd0-4c12-486c-933e-3f5c96c344fd"
-        },
-        {
-          "name": "teste de adicionar servico",
-          "cost": "23.00",
-          "id": "2939a28b-f7c5-452b-a3a9-fef356e399db"
-        },
-        {
-          "name": "teste",
-          "cost": "230",
-          "id": "9bb2c557-f22e-4578-83c6-ee8180673328"
-        },
-        {
-          "name": "teste",
-          "cost": "228",
-          "id": "605df54d-419e-4cde-a03b-64e42f36a25d"
-        }
-      ],
-      "id": 21
-    },
-    {
       "name": "cria site jorginho",
       "budget": "1648",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
+      "cost": 298,
       "services": [
         {
           "name": "criar banco de dados",
           "cost": "498",
           "description": "criar banco de dados para jorginho",
           "id": "708a95f7-d423-4505-8155-99af05fac9e0"
+        },
+        {
+          "name": "teste ",
+          "cost": "198",
+          "description": "testando a exibição de serviços",
+          "id": "b23f8455-2602-46bb-b743-116b1992b8bb"
+        },
+        {
+          "name": "teste de adicionar servico",
+          "cost": "100.00",
+          "id": "37f65402-77b8-4e8e-bb23-b1236761980a"
         }
       ],
       "id": 22
@@ -85,15 +36,31 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 199,
+      "cost": 397,
       "services": [
         {
           "name": "banco de dados",
           "cost": "199",
           "id": "a794aa14-37f2-4cc4-84dc-a72a91ca53cb"
+        },
+        {
+          "name": "pagar o nego ",
+          "cost": "198",
+          "id": "d0b1fd64-6fe9-458e-98b1-bb20c60fe1d9"
         }
       ],
       "id": 23
+    },
+    {
+      "name": "criar servicos",
+      "budget": "3000.00",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 24
     }
   ],
   "categories": [
