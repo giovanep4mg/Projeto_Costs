@@ -7,26 +7,8 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 298,
-      "services": [
-        {
-          "name": "criar banco de dados",
-          "cost": "498",
-          "description": "criar banco de dados para jorginho",
-          "id": "708a95f7-d423-4505-8155-99af05fac9e0"
-        },
-        {
-          "name": "teste ",
-          "cost": "198",
-          "description": "testando a exibição de serviços",
-          "id": "b23f8455-2602-46bb-b743-116b1992b8bb"
-        },
-        {
-          "name": "teste de adicionar servico",
-          "cost": "100.00",
-          "id": "37f65402-77b8-4e8e-bb23-b1236761980a"
-        }
-      ],
+      "cost": -498,
+      "services": [],
       "id": 22
     },
     {
@@ -36,19 +18,8 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 397,
-      "services": [
-        {
-          "name": "banco de dados",
-          "cost": "199",
-          "id": "a794aa14-37f2-4cc4-84dc-a72a91ca53cb"
-        },
-        {
-          "name": "pagar o nego ",
-          "cost": "198",
-          "id": "d0b1fd64-6fe9-458e-98b1-bb20c60fe1d9"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 23
     },
     {
@@ -58,7 +29,7 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
+      "cost": -198,
       "services": [],
       "id": 24
     }
