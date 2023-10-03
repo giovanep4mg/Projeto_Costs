@@ -21,8 +21,9 @@ function Project(){
     const [type, setType] = useState()
 
     useEffect(() => {
-
-        setTimeout(() => {
+        // setTimeout é o loanding carregamento
+        setTimeout(() => { 
+            // aqui vai buscar e carregar o projeto se tiver
             fetch(`http://localhost:5000/projects/${id}`, {
                 method: "GET",
                 headers: {
@@ -61,13 +62,15 @@ function Project(){
             setProject(data)
             setShowProjectForm(false)
             // mensagem
-            setMessage("Projeto atualizado ")
+            setMessage("Projeto atualizado! ")
             setType('sucess')
         })
         .catch(err => console.log(err))
     }
 
     function createService(project){
+        // pata atualizar as mensagens
+        setMessage('')
 
         //last service
         const lastService = project.services[project.services.length -1]
@@ -80,14 +83,35 @@ function Project(){
 
         //maximum value validation
         if(newCost > parseFloat(project.budget)){
-            setMessage("Orçamento ultrapassado, verifique o valor do serviço! ")
-            setType("error")
+            setMessage("Orçamento ultrapassado, verifique o valor do serviço!")
+            setType('error')
             project.services.pop()
             return false
         }
         
-        // add servicecost to project total cost
+        // atualiza o cost do banco de dados
         project.cost = newCost
+
+        // atualizando o projeto
+        fetch(`http://localhost:5000/projects/${project.id}`, {
+            method: "PATCH",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(project), 
+        })
+        .then(resp => resp.json())
+        .then((data) => {
+            // exibir os serviços
+            console.log(data)
+           // setProject(data)
+            //setShowProjectForm(false)
+            // mensagem
+            //setMessage("Projeto atualizado! ")
+            //setType('sucess')
+        })
+        .catch(err => console.log(err))
+
 
         // update project
         fetch(`http://localhost:5000/projects/${id}`, {
@@ -122,8 +146,10 @@ function Project(){
                         <div className={styles.details_container}> 
                             <h1>Projeto: {project.name}</h1>
                             <button onClick={toggleProjectForm} className={styles.btn}>
+                                {/** Se tiver projeto vai exibir editar projeto, se não exibi fechar projeto*/}
                                 {!showProjectForm ? 'Editar projeto' : 'Fechar projeto'}
                             </button>
+                            {/**Se estiver projeto, vai exibir tudo que está aqui dentro */}
                             {!showProjectForm ? (
                                 <div className={styles.project_info}>
                                     <p>

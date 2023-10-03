@@ -9,7 +9,7 @@ function ServiceForm({handleSubmit, textBtn, projectData}){
     const [service, setService] = useState({});
 
     function handleChange(e){
-        setService({ ...service, [e.target.name] : e.target.value})
+        setService({ ...service, [e.target.name]:e.target.value})
     }
 
     function submit(e){
@@ -29,7 +29,7 @@ function ServiceForm({handleSubmit, textBtn, projectData}){
             <Input
                 type="number"
                 text="Custo do serviço"
-                name="costs"
+                name="cost"
                 placeholder="Insira o valor total"
                 handleOnChange={handleChange}
             />

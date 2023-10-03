@@ -7,32 +7,26 @@
         "id": "3",
         "name": "Design"
       },
-      "post": 0,
+      "cost": 43,
       "services": [
         {
-          "name": "teste de adicionar servico",
-          "costs": "1800",
-          "description": "asasa",
-          "id": "2ad71959-f5b6-4a77-a38e-9d29e87a7302"
+          "name": "editar teste de adicionar servico",
+          "cost": "15.00",
+          "id": "796d0285-42f0-42e2-9c3b-73c5483f8145"
         },
         {
-          "name": "adiconar",
-          "costs": "100",
-          "id": "55a0a176-3cb5-4dc1-b8db-48b2e1343cce"
+          "name": "segundo teste de adicionar servico",
+          "cost": "13",
+          "id": "851c117a-0a02-4b40-97fd-17610f43dda0"
         },
         {
-          "name": "adiconar",
-          "costs": "100",
-          "id": "55a0a176-3cb5-4dc1-b8db-48b2e1343cce"
-        },
-        {
-          "name": "adiconar",
-          "costs": "100",
-          "id": "55a0a176-3cb5-4dc1-b8db-48b2e1343cce"
+          "name": "segundo teste de adicionar servico",
+          "cost": "15.00",
+          "id": "fe0aa82c-1de9-40e7-86c5-6f657e7c35d8",
+          "description": "eeee"
         }
       ],
-      "id": 20,
-      "cost": null
+      "id": 3
     },
     {
       "name": "teste atualizando projeto3",
@@ -41,20 +35,65 @@
         "id": "3",
         "name": "Design"
       },
-      "post": 0,
-      "services": [],
+      "cost": 491,
+      "services": [
+        {
+          "name": "teste de adicionar servico",
+          "cost": "10.000",
+          "id": "fab69fd0-4c12-486c-933e-3f5c96c344fd"
+        },
+        {
+          "name": "teste de adicionar servico",
+          "cost": "23.00",
+          "id": "2939a28b-f7c5-452b-a3a9-fef356e399db"
+        },
+        {
+          "name": "teste",
+          "cost": "230",
+          "id": "9bb2c557-f22e-4578-83c6-ee8180673328"
+        },
+        {
+          "name": "teste",
+          "cost": "228",
+          "id": "605df54d-419e-4cde-a03b-64e42f36a25d"
+        }
+      ],
       "id": 21
     },
     {
-      "name": "projeto atualizar",
-      "budget": "1070000",
+      "name": "cria site jorginho",
+      "budget": "1648",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "post": 0,
-      "services": [],
+      "cost": 0,
+      "services": [
+        {
+          "name": "criar banco de dados",
+          "cost": "498",
+          "description": "criar banco de dados para jorginho",
+          "id": "708a95f7-d423-4505-8155-99af05fac9e0"
+        }
+      ],
       "id": 22
+    },
+    {
+      "name": "site salão Getúlio",
+      "budget": "2000.00",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 199,
+      "services": [
+        {
+          "name": "banco de dados",
+          "cost": "199",
+          "id": "a794aa14-37f2-4cc4-84dc-a72a91ca53cb"
+        }
+      ],
+      "id": 23
     }
   ],
   "categories": [
@@ -69,10 +108,6 @@
     {
       "id": 3,
       "name": "Design"
-    },
-    {
-      "id": 4,
-      "name": "Planejamento"
     }
   ]
 }

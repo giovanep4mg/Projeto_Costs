@@ -4,7 +4,7 @@ import styles from './Projects.module.css';
 
 import Container from '../../Layout/Container/Container';
 import Loading from "../../Layout/Loading/Loading";
-import { json, useLocation} from 'react-router-dom';
+import { useLocation} from 'react-router-dom';
 
 import LinkButton from '../../Layout/LinkButton/LinkButton';
 import ProjectCard from "../../Project/ProjectCard/ProjectCar";
@@ -66,14 +66,15 @@ function Projects(){
             {projectMessage && <Message type="sucess" msg={projectMessage}/> }
             <Container customClass="start">
                 {projects.length > 0 && 
-                    projects.map((project) => <ProjectCard 
-                        id={project.id}
-                        name={project.name}
-                        budget={project.budget}
-                        category={project.category.name}
-                        key={project.id}
-                        handleRemove={removeProject}
-                    /> 
+                    projects.map((project) => 
+                        <ProjectCard 
+                            id={project.id}
+                            name={project.name}
+                            budget={project.budget}
+                            category={project.category.name}
+                            key={project.id}
+                            handleRemove={removeProject}
+                        /> 
                     )}
                     {!removeLoading && <Loading/>}
                     {removeLoading && projects.length === 0 && (
