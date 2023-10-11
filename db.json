@@ -7,8 +7,14 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": -498,
-      "services": [],
+      "cost": -199,
+      "services": [
+        {
+          "name": "criar alguma coisa",
+          "cost": "299",
+          "id": "39bcd9dd-8632-4f5e-befd-0add33fea40a"
+        }
+      ],
       "id": 22
     },
     {
@@ -18,8 +24,14 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 200,
+      "services": [
+        {
+          "name": "criar serviço",
+          "cost": "200.00",
+          "id": "4e461718-abae-4d1c-9a0b-7ab0149c2b8f"
+        }
+      ],
       "id": 23
     },
     {
